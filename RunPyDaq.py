@@ -7,7 +7,7 @@
 ###     
 ### Copyright (C) 2018 University of Salford - All Rights Reserved
 ### You may use, distribute and modify this code under the terms of MIT Licence
-### See <filename> or go to <url> for full licence details
+### See RunPyDaq/LICENSE or go to https://tldrlegal.com/license/mit-license for full licence details
 ###
 ### Based on the following:
 ###     Daq Class: From danieljfarrell - https://github.com/danieljfarrell/pydaq/blob/master/DAQ.py
@@ -29,7 +29,7 @@ from drawnow import drawnow
 
 # Class constants
 nidaq = ctypes.windll.nicaiu
-#nidaq  = ctypes.cdll.LoadLibrary(find_library('nidaqmxbase')) ### Removed as was not effective for NIDAQ 9001
+#nidaq  = ctypes.cdll.LoadLibrary(find_library('nidaqmxbase')) ### Removed as was not effective for NIDAQ 6008
 int32 = ctypes.c_long
 uInt32 = ctypes.c_ulong
 uInt64 = ctypes.c_ulonglong
